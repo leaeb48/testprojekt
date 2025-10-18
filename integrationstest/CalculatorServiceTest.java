@@ -9,5 +9,4 @@ public class CalculatorServiceTest {
     void testAddAndMultiply() {
         CalculatorService service = new CalculatorService();
         assertEquals(15, service.addAndMultiply(2, 3, 3)); // (2+3)*3 = 15
-    }
-}
+    
